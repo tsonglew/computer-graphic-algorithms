@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Test5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\KASHEE~1\AppData\Local\Temp\RSP89F9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Test5.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Test5\Test5View.cpp"
+]
+Creating command line "cl.exe @C:\Users\KASHEE~1\AppData\Local\Temp\RSP89F9.tmp" 
+Creating temporary file "C:\Users\KASHEE~1\AppData\Local\Temp\RSP89FA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Test5.pdb" /debug /machine:I386 /out:"Debug/Test5.exe" /pdbtype:sept 
+".\Debug\Test5.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Test5Doc.obj"
+".\Debug\Test5View.obj"
+".\Debug\Test5.res"
+".\Debug\P2.obj"
+".\Debug\P3.obj"
+".\Debug\Transform.obj"
+".\Debug\Face.obj"
+".\Debug\Line.obj"
+".\Debug\RGB.obj"
+]
+Creating command line "link.exe @C:\Users\KASHEE~1\AppData\Local\Temp\RSP89FA.tmp"
+<h3>Output Window</h3>
+Compiling...
+Test5View.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Test5.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
